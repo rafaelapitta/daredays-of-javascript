@@ -3,7 +3,7 @@
 
 Hello **DareDevs**, welcome to my challeng of 30 days with JavaScript! My name's Bay, I'm from Toronto and I'm Front-End Developer who loves coding and sharing knowledge. 
 
- - [x] Pilot: Index
+ - [x] [Pilot: Index](docs/pilot)
  - [ ] Issue Tracker
  - [ ] PIN Pad
  - [ ] Weather App
