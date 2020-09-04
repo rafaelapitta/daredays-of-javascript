@@ -120,3 +120,9 @@ body {
   color: var(--dark-text-complement);
   overflow: hidden;
 }
+
+.panel a {
+  text-decoration: none;
+  color: var(--color-background-light);
+
+}
