@@ -37,7 +37,7 @@ header {
 
 .links {
   margin: 1rem;
-  width: 50%;
+  width: 60%;
 
   display: flex;
   align-items: center;
@@ -46,12 +46,12 @@ header {
 }
 
 .links img {
-  width: 70px;
+  width: 60px;
 }
 
 .other-links {
-  width: 35%;
-display: flex;
+  width: 60%;
+  display: flex;
 flex-direction: row;
 justify-content: space-between;
 }
@@ -59,16 +59,20 @@ justify-content: space-between;
 .other-links a {
   background-color: #121214; 
   border-radius: 0.3rem;
-  padding: 1rem 3rem;
+  padding: 1rem 1.5rem;
 
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-family: 'Montserrat';
   font-weight: 600;
   color: var(--dark-text-complement);
 }
 
- /* BODY */
+.other-links a:hover {
+  background-color: #121214b2; 
+}
+
+/* BODY */
 body {
   background-color: #121214;
 }
@@ -80,78 +84,19 @@ body {
   align-items: center;
 }
 
-#content img {
-  margin-top: 5rem;
-  border-radius: 50%;
-  width: 20rem;
+@media(min-width: 800px) {
+  .links {
+    width: 50%;
+  }
+  .other-links a {
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
 
-}
-.develop { 
-  margin-top: 2rem;
-  font-family: 'Raleway';
-  font-size: 1.5rem;
-  color: var(--dark-text-title);
-}
 
-#content h1 {
-  margin-top: 2rem;
-  font-family: 'Raleway';
-  font-size: 3rem;
-  color: var(--dark-text-title);
-}
+  }
 
-#content h2 {
-  margin-top: 0.8rem;
-  font-family: 'Raleway';
-  font-size: 2rem;
-  color: var(--dark-text-base);
-}
+  .other-links {
+    width: 35%;
 
-#content h3 {
-  margin-top: 0.8rem;
-  font-family: 'Raleway';
-  font-size: 1.5rem;
-  color: var(--dark-text-complement);
-  font-weight: normal;
-}
-
-/* FAQ */
-.accordion {
-  margin-top: 30px;
-  border-radius: 0.5rem;
-  font-family: 'Montserrat';
-
-  background-color: #202024;
-  color: var(--dark-text-base);
-  cursor: pointer;
-  padding: 18px;
-  width: 50%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 1.8rem;
-  transition: 0.4s;
-}
-
-.active, .accordion:hover {
-  background-color: #222225; 
-}
-
-.panel {
-  width: 50%;
-  /* height: 8rem; */
-  padding: 10px 18px;
-
-  font-family: 'Raleway';
-  font-size: 2rem;
-  display: none;
-  background-color: #0c0c0e;
-  color: var(--dark-text-complement);
-  overflow: hidden;
-}
-
-.panel a {
-  text-decoration: none;
-  color: var(--color-background-light);
-
+  }
 }

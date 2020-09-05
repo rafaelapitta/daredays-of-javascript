@@ -7,4 +7,5 @@ Hello **DareDevs**, welcome to my challeng of 30 days with JavaScript! My name's
  - [ ] Issue Tracker
  - [ ] PIN Pad
  - [ ] Weather App
+ <br>
  ... More coming soon ⚡️

@@ -1,0 +1,83 @@
+
+#content img {
+  margin-top: 5rem;
+  border-radius: 50%;
+  width: 20rem;
+
+}
+.develop { 
+  margin-top: 2rem;
+  font-family: 'Raleway';
+  font-size: 1.5rem;
+  color: var(--dark-text-title);
+}
+
+#content h1 {
+  margin-top: 2rem;
+  font-family: 'Raleway';
+  font-size: 3rem;
+  color: var(--dark-text-title);
+}
+
+#content h2 {
+  margin-top: 0.8rem;
+  font-family: 'Raleway';
+  font-size: 2rem;
+  color: var(--dark-text-base);
+}
+
+#content h3 {
+  margin-top: 0.8rem;
+  font-family: 'Raleway';
+  font-size: 1.5rem;
+  color: var(--dark-text-complement);
+  font-weight: normal;
+}
+
+/* FAQ */
+.accordion {
+  margin-top: 30px;
+  border-radius: 0.5rem;
+  font-family: 'Montserrat';
+
+  background-color: #202024;
+  color: var(--dark-text-base);
+  cursor: pointer;
+  padding: 18px;
+  width: 50%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1.8rem;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #222225; 
+}
+
+.panel {
+  width: 50%;
+  /* height: 8rem; */
+  padding: 10px 18px;
+
+  font-family: 'Raleway';
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  display: none;
+  background-color: #0c0c0e;
+  color: var(--dark-text-complement);
+  overflow: hidden;
+}
+
+.panel a {
+  text-decoration: none;
+  color: var(--color-background-light);
+
+}
+
+@media(min-width: 600px) {
+  .panel {
+    font-size: 2rem;
+  }
+}
