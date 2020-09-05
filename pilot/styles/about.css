@@ -1,0 +1,52 @@
+#content img {
+  margin-top: 5rem;
+  border-radius: 50%;
+  width: 20rem;
+
+}
+.develop { 
+  margin-top: 2rem;
+  font-family: 'Raleway';
+  font-size: 1.5rem;
+  color: var(--dark-text-title);
+}
+
+#content h1 {
+  margin-top: 2rem;
+  font-family: 'Raleway';
+  font-size: 3rem;
+  color: var(--dark-text-title);
+}
+
+#content h2 {
+  margin-top: 0.8rem;
+  font-family: 'Raleway';
+  font-size: 2rem;
+  color: var(--dark-text-base);
+}
+
+#content h3 {
+  margin-top: 0.8rem;
+  font-family: 'Raleway';
+  font-size: 1.5rem;
+  color: var(--dark-text-complement);
+  font-weight: normal;
+}
+
+.socialmedia a { 
+  font-size: 2rem;
+  text-decoration: none;
+  display: inline;
+  font-family: 'Montserrat';
+  color: aliceblue;
+  border-bottom: 2.5px solid white;
+
+
+  margin-right: 1rem;
+
+}
+
+#align {
+  display: flex;
+  justify-content: center;
+}
