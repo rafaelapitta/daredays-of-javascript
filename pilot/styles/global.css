@@ -84,19 +84,7 @@ body {
   align-items: center;
 }
 
-/* @media(min-width: 800px) {
-  .links {
-    width: 50%;
-  }
-  .other-links a {
-    font-size: 1.5rem;
-    padding: 1rem 3rem;
-
-
-  }
-
-  .other-links {
-    width: 35%;
-
-  }
-} */
+::selection {
+  color: black;
+  background: white; 
+}

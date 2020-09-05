@@ -26,11 +26,21 @@
 }
 
 #content h3 {
+  max-width: 80%;
+
   margin-top: 0.8rem;
+  margin-bottom: 3rem;
+
   font-family: 'Raleway';
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
   color: var(--dark-text-complement);
   font-weight: normal;
+}
+
+/* Bay hover on text */
+#content strong:hover {
+  color: white;
 }
 
 .socialmedia a { 
@@ -41,12 +51,18 @@
   color: aliceblue;
   border-bottom: 2.5px solid white;
 
-
-  margin-right: 1rem;
-
+  margin: 1rem;
+  transition: 200ms;
 }
+
+.socialmedia a:hover {
+  color: var(--light-text-complement);
+  border-bottom: 2.5px solid var(--light-text-title);
+}
+
 
 #align {
   display: flex;
   justify-content: center;
 }
+
